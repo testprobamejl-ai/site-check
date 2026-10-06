@@ -1,0 +1,4 @@
+on:
+  schedule:
+    - cron: '*/5 * * * *'   # svakih 5 minuta (UTC)
+  workflow_dispatch:         # dugme za ručno pokretanje
