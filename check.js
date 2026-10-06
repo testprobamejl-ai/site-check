@@ -17,8 +17,5 @@ const URL = 'https://kuchenabluftreinigung.de';
   console.log('Naslov:', await page.title());
   console.log('Vreme učitavanja:', loadMs, 'ms');
 
-  await page.screenshot({ path: 'screenshot.png', fullPage: true });
-  console.log('Screenshot sačuvan: screenshot.png');
-
   await browser.close();
 })();
